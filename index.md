@@ -1,4 +1,4 @@
-A *minimalist version* of the Software Engineering Handbook for the workshop.
+A workshop *minimalist version* of the Software Engineering Handbook.
 
 **Useful links:**
 
