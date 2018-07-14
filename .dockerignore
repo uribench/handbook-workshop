@@ -1,19 +1,1 @@
-# This file was created by `run! docker ignore`.
-# Updating it manually is NOT recommended.
-
-### Custom
-
 .git
-.gitignore
-docker-compose*
-
-### .gitignore
-
-
-
-### ~/.gitignore_global
-
-.byebug_history
-*.sublime-project
-*.sublime-workspace
-.envrc
