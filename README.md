@@ -2,8 +2,8 @@
 
 A workshop *minimalist version* of the GitHub repository.
 
-To learn about the workshop and to walk-through the steps of the hands-on experiments visit the
-[About the Workshop][1] page.
+To learn about the workshop and to walk-through the steps of the hands-on experiments 
+visit the [About the Workshop][1] page.
 
 ---
 
