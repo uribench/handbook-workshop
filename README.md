@@ -2,7 +2,9 @@
 
 A workshop *minimalist version* of the GitHub repository.
 
-**You are previewing now pull request changes that were not approved yet.**
+To learn about the workshop and to walk-through the steps of the hands-on experiments visit the
+[About the Workshop][1] page.
 
-Use the links on the left panel to preview the [Handbook](/Handbook) with the proposed changes, 
-or the [Guides](/Guides) and [Topics](/Topics) links to preview individual Markdown files.
+---
+
+[1]: /Guides/About%20the%20Workshop.md
