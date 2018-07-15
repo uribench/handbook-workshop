@@ -17,7 +17,7 @@ signs:
     - The URL used by the browser starts with `http://workshop.software-engineering-handbook.com`
     - There is **no left side panel with search option** as in the below image.
 - You are on the **pull request preview** version if:
-    - The URL is in the form 
+    - The URL is in the form `handbook-workshop-<unique-id>.now.sh`
     - There is a **left side panel with search option** as in the below image.
 
 The **left side panel** with the search option for previewing the pull request looks like:
