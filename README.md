@@ -25,10 +25,10 @@ The **left side panel** with the search option for previewing the pull request l
 ![madness side panel example](/images/madness-side-panel.png)
 
 When using the **pull request preview** version you can use the search option and the links on the 
-left panel to preview the [Handbook](/Handbook) with the proposed changes that were not confirmed
+left panel to preview the temporary Handbook with the proposed changes that were not confirmed
 yet.
 
 ---
 
 [1]: https://github.com/uribench/software-engineering-handbook
-[2]: https://github.com/uribench/handbook-workshop
+[2]: http://workshop.software-engineering-handbook.com/
