@@ -2,9 +2,9 @@
 
 A workshop *minimalist version* of the GitHub repository.
 
-To learn about the workshop and to walk-through the steps of the hands-on experiments visit the
+To learn about the workshop and to walk-through the steps of the hands-on exercises visit the
 [About the Workshop][1] page.
 
 ---
 
-[1]: /Guides/About%20the%20Workshop.md
+[1]: /Handbook/About%20the%20Workshop
