@@ -30,10 +30,10 @@ Troubleshooting: If GitHub is under heavy load you may not be able to access it.
 is down for everyone or just you using the [isup.me][6] service.
 
 
-**Step 3**: Copy from GitHub the link to the repository for cloning using SSH protocol. For that use 
-the Green 'Clone or download' button on the right side of the '<> Code' page on GitHub.
+**Step 3**: Copy from GitHub the link to the repository for cloning using SSH protocol. To do that,  
+use the Green 'Clone or download' button on the right side of the '<> Code' page on GitHub.
 
-The link should be: `git@github.com:uribench/handbook-workshop.git`
+The copied link should be: `git@github.com:uribench/handbook-workshop.git`
 
 
 **Step 4**: Clone the handbook-workshop repository using the following command locally from your
@@ -63,7 +63,7 @@ and only then clone the forked repository into your local machine.
 **Step 5**: Change directory into the directory of the cloned repository: `$ cd handbook-workshop`
 
 
-**Step 6**: Create a local branch for use during during this workshop. 
+**Step 6**: Create a local branch for use during this workshop. 
 
 The following annotated commands will get you familiar with some basic Git usage. Execute them all
 in order to complete this step.
@@ -80,8 +80,8 @@ Output:
 
 Create a new branch: `$ git checkout -b <new-branch>`
 
-It will help later if you pick a unique name for the branch. You can use the same name that you 
-chose for your personal directory that you have created during Exercise 1.
+Fot this workshop, it will help later if you pick a unique name for the branch. You can use the same 
+name that you chose for your personal directory that you have created during Exercise 1.
 
 This command will create a new branch and set it as the current branch. 
 
