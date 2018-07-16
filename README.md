@@ -28,7 +28,12 @@ When using the **pull request preview** version you can use the search option an
 left panel to preview the [Handbook](/Handbook) with the proposed changes that were not confirmed
 yet.
 
+
+To learn about the workshop and to walk-through the steps of the hands-on experiments 
+visit the [About the Workshop][3] page.
+
 ---
 
 [1]: https://github.com/uribench/software-engineering-handbook
 [2]: https://github.com/uribench/handbook-workshop
+[3]: /Guides/About%20the%20Workshop.md
