@@ -22,24 +22,37 @@ credentials:
 Perform the following steps in order to get familiar with the handbook-workshop repository and to
 prepare it for the next exercises of this workshop:
 
-**Step 1**: Make sure you have completed [Exercise 1][5] and your current directory is the one you 
-have created for yourself as instructed.
+
+## Step 1: Verify Prerequisites
+
+Make sure you have completed [Exercise 1][5] and your current directory is the one you have created 
+for yourself as instructed.
 
 
-**Step 2**: Use a new tab of your Chrome Browser to visit the [handbook-workshop][2] repository on 
+## Step 2: Visit the handbook-workshop Repository on GitHub
+
+Use a new tab of your Chrome Browser to visit the [handbook-workshop][2] repository on 
 GitHub and sign-in using the credentials of the shared `handbookworkshop` account.
 
 Troubleshooting: If GitHub is under heavy load you may not be able to access it. You can check if it
 is down for everyone or just you using the [isup.me][6] service.
 
 
-**Step 3**: Copy from GitHub the link to the repository for cloning using SSH protocol. To do that,  
-use the Green 'Clone or download' button on the right side of the '<> Code' page on GitHub.
+## Step 3: Copy the GitHub Link for Cloning
+
+Copy the GitHub link for cloning the repository using SSH protocol. To do that, make sure you are on
+the 'Code' page of the repository on GitHub:
+
+!['Code' page][8]
+
+and click on the !['Clone or download' button][7] button on the right side of the page.
 
 The copied link should be: `git@github.com:uribench/handbook-workshop.git`
 
 
-**Step 4**: Clone the handbook-workshop repository using the following command locally from your
+## Step 4: Clone the handbook-workshop Repository
+
+Clone the handbook-workshop repository using the following command locally from your
 personal working directory on the Linux deployment for the workshop:
 
 ```bash
@@ -63,10 +76,14 @@ to the handbook. In that case you will fork the repository to create a clone on 
 and only then clone the forked repository into your local machine.
 
 
-**Step 5**: Change directory into the directory of the cloned repository: `$ cd handbook-workshop`
+## Step 5: Enter the Directory of the Cloned Repository
+
+Change directory into the directory of the cloned repository: `$ cd handbook-workshop`
 
 
-**Step 6**: Create a local branch for use during this workshop. 
+## Step 6: Create a Development Branch
+
+Create a local branch for use during this workshop. 
 
 The following annotated commands will get you familiar with some basic Git usage. Execute them all
 in order to complete this step.
@@ -110,3 +127,5 @@ explained in the next exercise.
 [4]: http://software-engineering-handbook.com/Guides/Git/Working%20with%20a%20Remote%20Git%20Repository
 [5]: /Guides/About/Exercise_1
 [6]: https://downforeveryoneorjustme.com/github.com
+[7]: /images/exercise-2/github-clone-or-download-button.png
+[8]: /images/exercise-2/github-code-page.png
