@@ -1,6 +1,6 @@
 # Exercise 3 - Creating Simple Guides and Topics
 
-***Duration: 10 min***
+***Duration: 20 min***
 
 In this exercise we will create simple contents in the form of guides and topics related to one 
 subject. We will also embed different types of links referencing internal and external targets.
@@ -119,8 +119,9 @@ examples in the guides under the `Guides` directory.
 Note that guides may include references to topics, but topics cannot reference guides.
 
 
-Now we are ready to proceed and push the changes to the remote repository on GitHub, and create a 
-pull request to propose our changes. This will be done in the next exercise.
+
+Now we are ready to proceed and connect the new guides and topics to the Handbook. This will be done 
+in the next exercise.
 
 ---
 
