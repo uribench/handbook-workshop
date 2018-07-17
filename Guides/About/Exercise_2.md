@@ -117,7 +117,7 @@ Output:
 
 Now we are ready to proceed and make changes to the local repository, push them to the remote 
 repository on GitHub, and create a pull request to propose our changes. All these steps will be 
-explained in the next exercise.
+done in the next exercises.
 
 ---
 
