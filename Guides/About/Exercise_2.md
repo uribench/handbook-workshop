@@ -1,13 +1,16 @@
-# Exercise 2 - Getting Familiar with the Handbook Repository for the Workshop
+# Exercise 2 - Preparing a Local Handbook Repository for the Workshop
 
 ***Duration: 10 min***
 
 A *minimalist version* of the [software-engineering-handbook][1] GitHub repository was created for 
 this hands-on workshop and is available on GitHub as [handbook-workshop][2] repository.
 
-In this exercise we will use [Git][3] locally, and also connect to a remote repository on 
-[GitHub][4]. The deployed Linux development environment for this workshop has already been set and 
-configured for using Git and GitHub for all the needs of this workshop.
+In this exercise we will create a local clone of the remote handbook-workshop repository on GitHub,
+and then we will create a working branch from the local clone.
+
+We will use [Git][3] locally, and also connect to a remote repository on [GitHub][4]. The deployed 
+Linux development environment for this workshop has already been set and configured for using Git 
+and GitHub for all the needs of this workshop.
 
 During this workshop, all the participants will share the same **GitHub account** with the following 
 credentials:
