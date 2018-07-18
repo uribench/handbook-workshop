@@ -6,4 +6,4 @@
 - [Development](/Handbook/Development)
 - [Production](/Handbook/Production)
 - [Coding](/Handbook/Coding)
-- [Waiting for You](/Handbook/Waiting%20for%20You)
+- [Made in the Workshop](/Handbook/Made%20in%20the%20Workshop)

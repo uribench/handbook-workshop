@@ -5,6 +5,8 @@
 In this exercise we will create simple contents in the form of guides and topics related to one 
 subject. We will also embed different types of links referencing internal and external targets.
 
+Perform the following steps in order to create simple guides and topics:
+
 
 ## Step 1: Learn About the Directory Structure of the Handbook Repository
 
@@ -44,8 +46,8 @@ differences between them in the context of the Handbook.
 
 ## Step 3: Create a Directory for Your Guides
 
-Select a unique name for the directory that will host your guides. Use "Title Case" with spaces 
-("Humenazied"). For instance, `Guides by <unique-name>`.
+Select a unique name for the directory that will host your guides. Use 'Title Case' with spaces 
+("Humanized"). For instance, `Guides by <unique-name>`.
 
 Create a directory with the selected unique name under:
 
@@ -59,7 +61,7 @@ contents and place them under the newly created directory for your guides.
 
 Guidelines for the Guide Markdown Files:
 
-1. Filename - Use "Title Case" with spaces ("Humenazied"), such as `Getting Started with Vagrant.md`
+1. Filename - Use 'Title Case' with spaces ("Humanized"), such as `Getting Started with Vagrant.md`
 2. Title - Same as the filename (without the `*.md` extension). Use H1 header.
 3. Introduction - Short section immediately below the Title to introduce the guide
 4. Additional Sections - One or more additional sections with sub-titles. Use H2 or higher headers.
@@ -74,8 +76,8 @@ At this stage we do not add cross references or links to external targets.
 
 ## Step 5: Create a Directory for Your Topic
 
-Select a unique name for the directory that will host your topic. Use "Title Case" with spaces 
-("Humenazied"). For instance, `Topic by <unique-name>`.
+Select a unique name for the directory that will host your topic. Use 'Title Case' with spaces 
+("Humanized"). For instance, `Topic by <unique-name>`.
 
 Create a directory with the selected unique name under:
 
@@ -91,8 +93,8 @@ Guidelines for the Topic Markdown Files:
 
 1. Filename - The main file of the topic has to be called `index.md`. It will serve as the entry
     point when referencing the parent directory. Any addition secondary file under the same 
-    directory should have a name using "Title Case" with spaces. The secondary files, if exist, may
-    be referred by the main file, bt cannot be referred directly by any guide or other topic.
+    directory should have a name using 'Title Case' with spaces. The secondary files, if exist, may
+    be referred by the main file, but cannot be referred directly by any guide or other topic.
 2. Title - The title of the main file should be the same as the hosting directory. Use H1 header.
 3. Introduction - Short section immediately below the Title to introduce the topic
 4. Additional Sections - One or more additional sections with sub-titles. Use H2 or higher headers.
