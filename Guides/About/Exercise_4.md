@@ -20,7 +20,7 @@ dynamically using the authored content and the configuration files.
 <details>
   <summary><b>Optional Reading:</b> Key Concepts and Principles:</summary>
     &ensp;&ensp;&ensp;&ensp;Read the  
-        <a href=https://github.com/uribench/software-engineering-handbook/blob/master/README.md#key-concepts-and-principles">
+        <a href="https://github.com/uribench/software-engineering-handbook/blob/master/README.md#key-concepts-and-principles">
             Key Concepts and Principles
         </a> to learn more about the subject.
 </details>
