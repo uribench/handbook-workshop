@@ -43,9 +43,9 @@ is down for everyone or just you using the [isup.me][6] service.
 Copy the GitHub link for cloning the repository using SSH protocol. To do that, make sure you are on
 the 'Code' page of the repository on GitHub:
 
-!['Code' page][8]
+!['Code' page][7]
 
-and click on the !['Clone or download' button][7] button on the right side of the page.
+and click on the !['Clone or download' button][8] button on the right side of the page.
 
 The copied link should be: `git@github.com:uribench/handbook-workshop.git`
 
@@ -140,5 +140,5 @@ done in the next exercises.
 [4]: http://software-engineering-handbook.com/Guides/Git/Working%20with%20a%20Remote%20Git%20Repository
 [5]: /Guides/About/Exercise_1
 [6]: https://downforeveryoneorjustme.com/github.com
-[7]: /images/exercise-2/github-clone-or-download-button.png
-[8]: /images/exercise-2/github-code-page.png
+[7]: /images/exercise-2/github-code-page.png
+[8]: /images/exercise-2/github-clone-or-download-button.png
