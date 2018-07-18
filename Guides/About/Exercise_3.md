@@ -5,6 +5,14 @@
 In this exercise we will create simple contents in the form of guides and topics related to one 
 subject. We will also embed different types of links referencing internal and external targets.
 
+Remember to commit the changes you will make in this exercise frequently using the following 
+commands:
+
+```bash
+$ git add . --all
+$ git commit -m <commit-message>
+```
+
 Perform the following steps in order to create simple guides and topics:
 
 
@@ -18,6 +26,7 @@ The main two data elements in this repository are:
 - **Configuration data files** to construct the handbook navigation tree
 
 Following is the structure of the main directories of the repository:
+
 ```
 handbook-workshop/          root of the repository
 ├──config/                  main directory for the configuration files
@@ -119,7 +128,6 @@ Add at least one internal link to a header inside the same file and to a header 
 examples in the guides under the `Guides` directory.
 
 Note that guides may include references to topics, but topics cannot reference guides.
-
 
 
 Now we are ready to proceed and connect the new guides and topics to the Handbook. This will be done 

@@ -5,6 +5,13 @@
 In the previous exercise we have create content for guides and topics related to one 
 subject. In this exercise we will connect that contents to the handbook navigation tree.
 
+Remember to commit the changes you will make in this exercise frequently using the following 
+commands:
+
+```bash
+$ git add . --all
+$ git commit -m <commit-message>
+```
 
 Perform the following steps in order to connect the new guides and topics to the handbook navigation 
 tree:
