@@ -70,11 +70,13 @@ This command will clone the remote repository into a newly created directory cal
 It also creates remote-tracking of branches, for each branch that you will create locally in the 
 cloned repository (more on that in the next steps).
 
-Note: We use in this workshop 'git clone' and not 'GitHub fork' because we are using a shared GitHub
-account. Outside of the workshop you will use your personal GitHub account if you wish to contribute
-to the handbook. In that case you will fork the repository to create a clone on your GitHub account, 
-and only then clone the forked repository into your local machine.
-
+<details>
+  <summary><b>Optional Reading:</b> Why clone and not fork?</summary>
+    We use 'git clone' in this workshop and not 'GitHub fork', because we are using a shared GitHub 
+    account. Outside of the workshop you will use your personal GitHub account if you wish to 
+    contribute to the handbook. In that case you will fork the repository to create a clone on your 
+    GitHub account, and only then clone the forked repository into your local machine.
+</details>
 
 ## Step 5: Enter the Directory of the Cloned Repository
 
@@ -83,7 +85,7 @@ Change directory into the directory of the cloned repository: `$ cd handbook-wor
 
 ## Step 6: Create a Development Branch
 
-Create a local branch for use during this workshop. 
+Create a local branch for use during this workshop.
 
 The following annotated commands will get you familiar with some basic Git usage. Execute them all
 in order to complete this step.
@@ -98,7 +100,7 @@ Output:
 
 'master' is the only available branch currently. The current branch is highlighted with an asterisk.
 
-Create a new branch: `$ git checkout -b <new-branch>`
+Create a new branch: `$ git checkout -b <new-branch-name>`
 
 Fot this workshop, it will help later if you pick a unique name for the branch. You can use the same 
 name that you chose for your personal directory that you have created during Exercise 1.
@@ -111,7 +113,18 @@ Output:
 
 ```bash
   master
-* <new-branch>
+* <new-branch-name>
+```
+
+In the next exercises you will create changes to the local repository. The repository status can be
+viewed using: `$ git status`
+
+Commit the changes to the new branch on the local repository frequently using the following 
+commands:
+
+```bash
+$ git add . --all
+$ git commit -m <commit-message>
 ```
 
 
