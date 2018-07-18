@@ -10,6 +10,7 @@ Perform the following steps in order to push the changes to the remote repositor
 create a pull request, review the changes, merge them with the main branch, and delete the redundant 
 branch:
 
+
 ## Step 1: Verify that all Changes are Committed
 
 Make sure that all the changes you have made in the previous exercises are committed to the 
@@ -94,13 +95,25 @@ Refresh the 'Code' page of the repository on GitHub and click on the
 Now confirm the merge by pressing the ![Confirm merge button][12] button.
 
 
-## Step 7: Delete the Redundant Branch
+## Step 7: Delete the Redundant Branch on GitHub
 
 We have approved and closed the pull request successfully. Consequently, the changes were merged 
-into the 'master' branch and we can delete the redundant branch.
+into the 'master' branch and we can delete the redundant branch on GitHub.
 
 Click on the ![Delete branch button][13] button next to the 'Pull request successfully merged and 
 closed' message.
+
+
+## Step 8: Visit the Workshop Site
+
+Now we are able to see the handbook with the approve changes on the [workshop site][14].
+It will look something like:
+
+![workshop site][15]
+
+
+We have completed all the steps needed to introduce new content up to airing the resulting handbook. 
+It is time now to clean up the local repository. This will be done in the next exercise.
 
 ---
 
@@ -117,3 +130,5 @@ closed' message.
 [11]: /images/exercise-5/github-merge-pull-request-button.png
 [12]: /images/exercise-5/github-confirm-merge-button.png
 [13]: /images/exercise-5/github-delete-branch-button.png
+[14]: http://workshop.software-engineering-handbook.com/
+[15]: /images/exercise-5/workshop-site.png

@@ -107,7 +107,7 @@ name that you chose for your personal directory that you have created during Exe
 
 This command will create a new branch and set it as the current branch. 
 
-This can be verified by listing the current local branches using again: `$ git branch`
+This can be verified by listing the local branches using again: `$ git branch`
 
 Output: 
 
