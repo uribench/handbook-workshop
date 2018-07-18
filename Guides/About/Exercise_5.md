@@ -106,7 +106,7 @@ closed' message.
 
 ## Step 8: Visit the Workshop Site
 
-Now we are able to see the handbook with the approve changes on the [workshop site][14].
+Now we are able to see the handbook with the approved changes on the [workshop site][14].
 It will look something like:
 
 ![workshop site][15]
