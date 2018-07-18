@@ -39,9 +39,76 @@ Visit the [handbook-workshop][1] repository on GitHub. We have done that on an e
 so you are supposed to have an open tab on your Chrome browser that is already there. If not, then 
 repeat [Exercise 2: Step 2][2].
 
+Refresh the 'Code' page of the repository on GitHub:
 
+!['Code' page][3]
+
+and click on the !['Compare & pull request' button][4] button on the right side of the page.
+
+You will be taken to the 'Open a pull request' page where you can see the changes highlighted at the 
+bottom of the page if you scroll down.
+
+Click on the !['Create pull request' button][5] button on the higher part of the page.
+
+
+## Step 4: Wait for Completion of Integrated Checks
+
+A special Linux deployment with an instant Markdown preview server, called 'madness' was integrated 
+with this repository. It is triggered when a pull request is created.
+
+Watch the progress of the integrated checks status. At first you will see something similar to the 
+following status message in gold color:
+
+![Deployment/now pending status][6]
+
+Wait until the checks complete and the status message turns green as follows:
+
+![All checks have passed status][7]
+
+
+## Step 5: Review the Changes using a Preview Server
+
+Click the `Show all checks` link next to the 'All checks have passed' status message:
+
+![Show all checks link][8]
+
+The next detail will be unfolded to show the message 'deployment/now — Deployment has completed'.
+Click on the 'Details' link to its right:
+
+![Check details link][9]
+
+You will be transferred to the Linux deployment with an instant Markdown preview server. Review the 
+handbook with the changes that you have made. When you finish reviewing, move back to the GitHub
+repository.
+
+
+## Step 6: Merge Pull Request
+
+Refresh the 'Code' page of the repository on GitHub and click on the 
+![Merge pull request button][10] button to start merging the pull request.
+
+Now confirm the merge by pressing the ![Confirm merge button][11] button.
+
+
+## Step 7: Delete the Redundant Branch
+
+We have approved and closed the pull request successfully. Consequently, the changes were merged 
+into the 'master' branch and we can delete the redundant branch.
+
+Click on the ![Delete branch button][12] button next to the 'Pull request successfully merged and 
+closed' message.
 
 ---
 
 [1]: https://github.com/uribench/handbook-workshop
 [2]: /Guides/About/Exercise_2#step-2-visit-the-handbook-workshop-repository-on-github
+[3]: /images/exercise-2/github-code-page.png
+[4]: /images/exercise-5/github-compare-and-pull-request-button.png
+[5]: /images/exercise-5/github-create-pull-request-button.png
+[6]: /images/exercise-5/github-pending-check-deployment-now-status.png
+[7]: /images/exercise-5/github-all-checks-have-passed-status.png
+[8]: /images/exercise-5/github-show-all-checks-link.png
+[9]: /images/exercise-5/github-check-details-link.png
+[10]: /images/exercise-5/github-merge-pull-request-button.png
+[11]: /images/exercise-5/github-confirm-merge-button.png
+[12]: /images/exercise-5/github-delete-branch-button.png
