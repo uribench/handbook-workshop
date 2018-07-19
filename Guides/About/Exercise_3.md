@@ -18,33 +18,8 @@ Perform the following steps in order to create simple guides and topics:
 
 ## Step 1: Learn About the Directory Structure of the Handbook Repository
 
-The contents of this repository is used to dynamically build the [Workshop Handbook site][1]. 
-
-The main two data elements in this repository are:
-
-- **Authored content** that is accessible to the end user from the handbook navigation tree 
-- **Configuration data files** to construct the handbook navigation tree
-
-Following is the structure of the main directories of the repository:
-
-```
-handbook-workshop/          root of the repository
-├──config/                  main directory for the configuration files
-├──Guides/                  root of the authored contents for guides
-├──Topics/                  root of the authored contents for topics
-└──Handbook/                handbook navigation tree. created automatically
-```
-
-All the authored content is placed under the `Guides` and `Topics` directories.
-
-All the configuration files are placed under the `config` directory. In this exercise we will not 
-deal with the `config` directory, and focus on creating new contents under the `Guides` and `Topics` 
-directories. 
-
-The resulting handbook navigation tree, which is created dynamically using the authored content and 
-configuration files, is placed under the `Handbook` directory.
-
-On the differences between the contents of `Guides` and `Topics` see the next step.
+Read the [Authoring Contents][1] section of the Key Concepts documents to learn about the directory 
+structure of the handbook repository.
 
 
 ## Step 2: Learn About the Differences between Guides and Topics
@@ -129,13 +104,16 @@ examples in the guides under the `Guides` directory.
 
 Note that guides may include references to topics, but topics cannot reference guides.
 
+Refer to the lower part of the diagram in the [Authoring Contents][1] section of the Key Concepts 
+documents to learn about the rules of what is allowed and what is forbidden regarding references.
+
 
 Now we are ready to proceed and connect the new guides and topics to the Handbook. This will be done 
 in the next exercise.
 
 ---
 
-[1]: http://workshop.software-engineering-handbook.com/
+[1]: /Guides/About/Key%20Concepts#authoring-contents
 [2]: /Guides/README
 [3]: /Topics/README
 [4]: https://stackedit.io/

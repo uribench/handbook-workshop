@@ -6,6 +6,7 @@ the Software Engineering Handbook to learn new skills.
 
 ## Guides
 
+- [Key Concepts](/Guides/About/Key%20Concepts)
 - [Exercises](/Guides/About/Exercises)
 - [Useful Links](/Guides/About/Useful%20Links)
 

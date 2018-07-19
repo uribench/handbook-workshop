@@ -92,7 +92,10 @@ Perform the following actions in order to complete this step:
 Now that we have all the pieces of the new content in place, we have to build the handbook 
 navigation tree under the `Handbook` directory. This will be created dynamically using the 
 `handbook-tools`, which will consume the authored content and configuration files and generate the 
-`Handbook` directory structure. 
+`Handbook` directory structure.
+
+Read the [Handbook Building][5] section of the Key Concepts documents to learn more about what is 
+happening under the hood.
 
 Run the following commands to build the handbook:
 
@@ -123,3 +126,4 @@ pull request to propose our changes. This will be done in the next exercise.
 [2]: /config/metadata/README
 [3]: /config/metadata/vagrant-and-virtualbox.yml
 [4]: /Handbook/Development/Vagrant%20and%20VirtualBox
+[5]: /Guides/About/Key%20Concepts#handbook-building
