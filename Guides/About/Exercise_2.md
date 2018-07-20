@@ -134,6 +134,10 @@ done in the next exercises.
 
 ---
 
+[Previous Exercise](Exercise_1)&ensp;&ensp;&ensp;&ensp;[Next Exercise](Exercise_3)
+
+---
+
 [1]: https://github.com/uribench/software-engineering-handbook
 [2]: https://github.com/uribench/handbook-workshop
 [3]: http://software-engineering-handbook.com/Handbook/Development/Code%20Development%20Lifecycle/Version%20Control/Git/
