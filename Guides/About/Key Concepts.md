@@ -25,15 +25,16 @@ are attempting to always be clean of opinion and focus on facts. Read the respec
 the [`Guides`][2] and [`Topics`][3] in order to learn more about the differences between them in the 
 context of the Handbook.
 
-The `Guides` and `Topics` directories are including exactly one level of directories to group 
-the underlying files under well-defined subjects.
+The `Guides` and `Topics` directories include exactly one level of directories to group the 
+underlying files under well-defined subjects.
 
-Note that the files under the `Guides` directory will be refereed directly by their path and 
+Note that the files under the `Guides` directory will be referred directly by their path and 
 filename. The files under `Topics` are arranged differently. A file called `index.md` serves as the 
-entry point. It is accessed by referring its parent folder. If this file becomes too large, some 
-parts may be externalized to neighboring secondary files. Consider these files as containing 
-sections or chapters of the main `index.md` file. The secondary files should not be referred from 
-any party expect their neighboring main file.
+entry point for its respective topic. It is accessed by referring its parent folder. If this file 
+becomes too large, some parts may be externalized to neighboring secondary files. Consider these 
+files as containing sections or chapters of the main `index.md` file. Such secondary files should be
+considered as internal implementation details of a topic authoring. Therefore, the secondary files 
+should not be referred from any party expect their neighboring main file.
 
 The links in the bottom part of the next diagram illustrate the rules of what is allowed and what is 
 forbidden regarding cross-references. 
@@ -65,11 +66,12 @@ handbook navigation tree using YAML.
 
 The names of the tree nodes in the `/config/navigation/root.yml` file are given in 'Title Case' with 
 spaces ('Humanized' style). They are associated with optional metadata files having names that are
-the "slagified" version. For instance, A tree node called 'Vagrant and VirtualBox' is matched with
-a metadata file called `vagrant-and-virtualBox.yml`. Note that this default scheme can be overridden
-using [optional `@id` tag][6]. 
+their "slagified" version. For instance, a tree node called 'Vagrant and VirtualBox' is matched with
+a metadata file called `vagrant-and-virtualbox.yml`. Note that this default scheme can be overridden
+using the [optional `@id` tag][6]. 
 
-The [`README`][6] file in the `config/navigation` directory has more details.
+The [`README`][6] file in the `config/navigation` directory has more details about the supported 
+optional tags for tree nodes defined by the YAML files under `/config/navigation` directory.
 
 ### `metadata` Directory
 
@@ -89,10 +91,12 @@ contents and the configuration files.
 ![handbook building][9]
 
 The top left side of the above diagram shows the three groups of the configuration files. These
-files are used to build the handbook directory tree that includes only directories and `index.md`
-files. The handbook content is referred by some of the `index.md` of the handbook directory tree. 
-Note that the handbook content itself remains under their `Guide` and `Topics` directories and is 
-not copied into the handbook directory tree.
+files are used to build the handbook directory tree. The resulting handbook directory tree includes 
+only directories and `index.md` files. 
+
+The handbook content is referred by some of the `index.md` of the handbook directory tree. 
+Note that the handbook content itself remains under the `Guide` and `Topics` directories and is not
+copied into the handbook directory tree.
 
 The handbook directory tree on the right side of the above diagram spans the handbook navigation 
 configuration as defined by the `config/navigation/root.yml` file and its optionally included 
