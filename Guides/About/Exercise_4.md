@@ -10,7 +10,7 @@ commands:
 
 ```bash
 $ git add . --all
-$ git commit -m <commit-message>
+$ git commit -m '<commit-message>'
 ```
 
 Perform the following steps in order to connect the new guides and topics to the handbook navigation 
@@ -24,16 +24,11 @@ All the configuration files are placed under the `config` directory of the handb
 The resulting handbook navigation tree is placed under the `Handbook` directory. It is created 
 dynamically using the authored content and the configuration files.
 
-<details>
-  <summary><b>Optional Reading:</b> Key Concepts and Principles:</summary>
-    &ensp;&ensp;&ensp;&ensp;Read the  
-        <a href="https://github.com/uribench/software-engineering-handbook/blob/master/README.md#key-concepts-and-principles">
-            Key Concepts and Principles
-        </a> to learn more about the subject.
-</details>
+Read the [Configuration][1] section of the Key Concepts document to learn about how to 
+configure the handbook.
 
 
-## Step 2: Create Metadata for the Entry Point for Navigating to the New Subject
+## Step 2: Create Metadata for the New Subject
 
 Now you have a general idea about the key concepts and principles of the handbook configuration. 
 Read the [Metadata Configuration Files][2] to get specific details about the metadata configuration 
@@ -56,7 +51,7 @@ As an example see the metadata configuration file [`/config/metadata/vagrant-and
 and the resulting [`/Handbook/Development/Vagrant and VirtualBox/index.md`][4] navigation file.
 
 
-## Step 3: Modify the Navigation Tree to Include a Node for the New Subject
+## Step 3: Modify the Navigation Tree to include a Node for the New Subject
 
 To make the new subject visible in the handbook navigation tree, we need to modify the navigation
 configuration file `root.yml` and add a new node representing the new subject.
@@ -100,7 +95,7 @@ happening under the hood.
 Run the following commands to build the handbook:
 
 ```bash
-$ cd /app/handbook-workshop
+$ cd /app/<your-personal-directory>/handbook-workshop
 $ handbook build -f
 ```
 
@@ -126,7 +121,7 @@ pull request to propose our changes. This will be done in the next exercise.
 
 ---
 
-[1]: https://github.com/uribench/software-engineering-handbook/blob/master/README.md#key-concepts-and-principles
+[1]: /Guides/About/Key%20Concepts#configuration
 [2]: /config/metadata/README
 [3]: /config/metadata/vagrant-and-virtualbox.yml
 [4]: /Handbook/Development/Vagrant%20and%20VirtualBox

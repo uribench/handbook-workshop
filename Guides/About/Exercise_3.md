@@ -10,15 +10,15 @@ commands:
 
 ```bash
 $ git add . --all
-$ git commit -m <commit-message>
+$ git commit -m '<commit-message>'
 ```
 
 Perform the following steps in order to create simple guides and topics:
 
 
-## Step 1: Learn About the Directory Structure of the Handbook Repository
+## Step 1: Learn about the Directory Structure of the Handbook Repository
 
-Read the [Authoring Contents][1] section of the Key Concepts documents to learn about the directory 
+Read the [Authoring Contents][1] section of the Key Concepts document to learn about the directory 
 structure of the handbook repository.
 
 
@@ -28,7 +28,7 @@ Read the respective README files of the [`Guides`][2] and [`Topics`][3] in order
 differences between them in the context of the Handbook.
 
 
-## Step 3: Create a Directory for Your Guides
+## Step 3: Create a Directory for your Guides
 
 Select a unique name for the directory that will host your guides. Use 'Title Case' with spaces 
 ("Humanized"). For instance, `Guides by <unique-name>`.
@@ -58,7 +58,7 @@ Preview each Markdown file separately using a tool such as the [`StackEdit`][4].
 At this stage we do not add cross references or links to external targets.
 
 
-## Step 5: Create a Directory for Your Topic
+## Step 5: Create a Directory for your Topic
 
 Select a unique name for the directory that will host your topic. Use 'Title Case' with spaces 
 ("Humanized"). For instance, `Topic by <unique-name>`.
