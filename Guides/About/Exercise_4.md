@@ -122,6 +122,10 @@ pull request to propose our changes. This will be done in the next exercise.
 
 ---
 
+[Previous Exercise](exercise_3)&ensp;&ensp;&ensp;&ensp;[Next Exercise](exercise_5)
+
+---
+
 [1]: https://github.com/uribench/software-engineering-handbook/blob/master/README.md#key-concepts-and-principles
 [2]: /config/metadata/README
 [3]: /config/metadata/vagrant-and-virtualbox.yml

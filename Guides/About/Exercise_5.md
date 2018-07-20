@@ -117,6 +117,10 @@ It is time now to clean up the local repository. This will be done in the next e
 
 ---
 
+[Previous Exercise](exercise_4)&ensp;&ensp;&ensp;&ensp;[Next Exercise](exercise_6)
+
+---
+
 [1]: https://github.com/uribench/handbook-workshop
 [2]: /Guides/About/Exercise_2#step-2-visit-the-handbook-workshop-repository-on-github
 [3]: /images/exercise-2/github-code-page.png

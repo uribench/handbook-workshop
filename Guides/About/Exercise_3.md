@@ -113,6 +113,10 @@ in the next exercise.
 
 ---
 
+[Previous Exercise](exercise_2)&ensp;&ensp;&ensp;&ensp;[Next Exercise](exercise_4)
+
+---
+
 [1]: /Guides/About/Key%20Concepts#authoring-contents
 [2]: /Guides/README
 [3]: /Topics/README
