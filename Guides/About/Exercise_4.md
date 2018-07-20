@@ -122,7 +122,7 @@ pull request to propose our changes. This will be done in the next exercise.
 
 ---
 
-[Previous Exercise](exercise_3)&ensp;&ensp;&ensp;&ensp;[Next Exercise](exercise_5)
+[Previous Exercise](Exercise_3)&ensp;&ensp;&ensp;&ensp;[Next Exercise](Exercise_5)
 
 ---
 

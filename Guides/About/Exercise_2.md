@@ -134,7 +134,7 @@ done in the next exercises.
 
 ---
 
-[Previous Exercise](exercise_1)&ensp;&ensp;&ensp;&ensp;[Next Exercise](exercise_3)
+[Previous Exercise](Exercise_1)&ensp;&ensp;&ensp;&ensp;[Next Exercise](Exercise_3)
 
 ---
 

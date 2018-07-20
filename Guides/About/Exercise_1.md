@@ -84,7 +84,7 @@ that is open using your preferred text editor on the Linux bash terminal deploym
 
 ---
 
-[Next Exercise](exercise_2)
+[Next Exercise](Exercise_2)
 
 ---
 

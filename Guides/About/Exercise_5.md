@@ -117,7 +117,7 @@ It is time now to clean up the local repository. This will be done in the next e
 
 ---
 
-[Previous Exercise](exercise_4)&ensp;&ensp;&ensp;&ensp;[Next Exercise](exercise_6)
+[Previous Exercise](Exercise_4)&ensp;&ensp;&ensp;&ensp;[Next Exercise](Exercise_6)
 
 ---
 

@@ -48,7 +48,7 @@ to contribute content to the [Software Engineering Handbook][1]. Your contributi
 
 ---
 
-[Previous Exercise](exercise_5)
+[Previous Exercise](Exercise_5)
 
 ---
 

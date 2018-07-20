@@ -113,7 +113,7 @@ in the next exercise.
 
 ---
 
-[Previous Exercise](exercise_2)&ensp;&ensp;&ensp;&ensp;[Next Exercise](exercise_4)
+[Previous Exercise](Exercise_2)&ensp;&ensp;&ensp;&ensp;[Next Exercise](Exercise_4)
 
 ---
 
