@@ -2,6 +2,9 @@
 
 The following sections describe solutions and workarounds to common known issues.
 
+This is a test line for the workshop!
+
+
 
 ## Enabling Virtualization Technology
 
