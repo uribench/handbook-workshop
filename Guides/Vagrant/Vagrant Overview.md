@@ -4,7 +4,7 @@
 [Oracle's VirtualBox][2], makes it easy to create and run a Virtual Machine (VM) from the command 
 line.
 
-VirtualBox is a common virtualization software. It is an open source that was acquired by Oracle 
+This is a change that I made in the workshop. VirtualBox is a common virtualization software. It is an open source that was acquired by Oracle 
 in 2010. VirtualBox is available on a number of host operating systems, including: Windows, Linux, 
 and macOS. 
 
